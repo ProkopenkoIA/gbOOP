@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Buttle.iml" filepath="$PROJECT_DIR$/Buttle.iml" />
       <module fileurl="file://$PROJECT_DIR$/OSeminar1/OSeminar1.iml" filepath="$PROJECT_DIR$/OSeminar1/OSeminar1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OSeminar2/OSeminar2.iml" filepath="$PROJECT_DIR$/OSeminar2/OSeminar2.iml" />
     </modules>
   </component>
 </project>

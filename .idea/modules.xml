@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Buttle.iml" filepath="$PROJECT_DIR$/Buttle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OSeminar/OSeminar.iml" filepath="$PROJECT_DIR$/OSeminar/OSeminar.iml" />
       <module fileurl="file://$PROJECT_DIR$/OSeminar1/OSeminar1.iml" filepath="$PROJECT_DIR$/OSeminar1/OSeminar1.iml" />
       <module fileurl="file://$PROJECT_DIR$/OSeminar2/OSeminar2.iml" filepath="$PROJECT_DIR$/OSeminar2/OSeminar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OSeminar3/OSeminar3.iml" filepath="$PROJECT_DIR$/OSeminar3/OSeminar3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OSeminar4/OSeminar4.iml" filepath="$PROJECT_DIR$/OSeminar4/OSeminar4.iml" />
     </modules>
   </component>
 </project>

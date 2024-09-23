@@ -2,9 +2,20 @@ import java.util.List;
 
 public class StudentController implements UserController<Student> {
 
-    private final StudentGroupService studentGroupService = new StudentGroupService();
+    /*private final StudentGroupService studentGroupService = new StudentGroupService();
 
-    private final StudentView studentView = new StudentView();
+    private final StudentView studentView = new StudentView();*/
+
+    //-- Принцип инверсии зависимостей за счет имплементации UserService и UserView классами StudentGroupService и StudentView
+    private final UserService<Student> studentGroupService;
+
+    private final UserView<Student> studentView;
+
+    public StudentController(UserService<Student> studentGroupService, UserView<Student> studentView) {
+        this.studentGroupService = studentGroupService;
+        this.studentView = studentView;
+    }
+
 
     public void removeStudentByFIO(String firstName, String lastName, String middleName ){
        studentGroupService.removeStudentByFIO(firstName, lastName, middleName);
@@ -24,6 +35,6 @@ public class StudentController implements UserController<Student> {
 
     @Override
     public void create(String firstName, String lastName, String middleName) {
-        studentGroupService.createStudent(firstName, lastName, middleName);
+        studentGroupService.create(firstName, lastName, middleName);
     }
 }

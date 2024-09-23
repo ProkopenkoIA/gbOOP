@@ -19,12 +19,4 @@ public class Teacher extends User implements Comparable<Teacher> {
        return this.teacherId.compareTo(o.teacherId);
     }
 
-    @Override
-    public String toString() {
-        return "Teacher{" +
-                " firstName='" + super.getFirstName() + '\'' +
-                ", lastName='" + super.getLastName() + '\'' +
-                ", middleName='" + super.getMiddleName() + '\'' +
-                '}';
-    }
 }
